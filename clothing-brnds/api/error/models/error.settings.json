@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "errors",
+  "info": {
+    "name": "error"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "error": {
+      "type": "json"
+    },
+    "brands": {
+      "model": "brands"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

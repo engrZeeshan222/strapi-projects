@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sizes_sizes",
+  "info": {
+    "name": "sizes",
+    "icon": "battery-half"
+  },
+  "options": {},
+  "attributes": {
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    "SKU": {
+      "type": "string"
+    },
+    "inStock": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

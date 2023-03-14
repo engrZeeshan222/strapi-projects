@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_pieces_pieces",
+  "info": {
+    "name": "pieces",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pieces": {
+      "type": "enumeration",
+      "enum": [
+        "OnePiece",
+        "TwoPieces",
+        "ThreePieces",
+        "FourPieces"
+      ],
+      "default": "ThreePieces"
+    },
+    "parts": {
+      "type": "enumeration",
+      "enum": [
+        "DupattaShirtTrouser",
+        "DupattaShirt",
+        "ShirtTrouser",
+        "Shirt"
+      ],
+      "default": "DupattaShirtTrouser"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_pictures_pictures",
+  "info": {
+    "name": "pictures",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "pictureLink": {
+      "type": "string"
+    },
+    "main": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

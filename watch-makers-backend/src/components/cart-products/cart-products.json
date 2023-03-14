@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_cart_products_cart_products",
+  "info": {
+    "displayName": "cartProducts",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "watch": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::watch.watch"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "cost": {
+      "type": "float"
+    }
+  }
+}

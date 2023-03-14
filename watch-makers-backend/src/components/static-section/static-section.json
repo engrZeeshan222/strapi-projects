@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_static_section_static_sections",
+  "info": {
+    "displayName": "staticSection",
+    "icon": "chevron-down"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "picture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

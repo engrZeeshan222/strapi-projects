@@ -1,0 +1,190 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "name": "products",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "sku": {
+      "type": "string",
+      "unique": false,
+      "required": false
+    },
+    "link": {
+      "type": "string",
+      "unique": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "pictures": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pictures.pictures"
+    },
+    "detailDescription": {
+      "type": "richtext"
+    },
+    "measurment": {
+      "type": "string"
+    },
+    "fabric": {
+      "type": "string"
+    },
+    "collections": {
+      "via": "products",
+      "model": "collections"
+    },
+    "brand": {
+      "model": "brands",
+      "via": "products"
+    },
+    "color": {
+      "type": "string"
+    },
+    "inStock": {
+      "type": "boolean",
+      "default": true
+    },
+    "fabrics": {
+      "via": "products",
+      "collection": "fabric"
+    },
+    "originalPrice": {
+      "type": "decimal"
+    },
+    "sale": {
+      "type": "string"
+    },
+    "salePrice": {
+      "type": "decimal"
+    },
+    "piece": {
+      "type": "enumeration",
+      "enum": [
+        "OnePiece",
+        "TwoPieces",
+        "ThreePieces",
+        "FourPieces"
+      ],
+      "default": "ThreePieces"
+    },
+    "colors": {
+      "via": "products",
+      "collection": "colors"
+    },
+    "sizes": {
+      "via": "products",
+      "collection": "sizes"
+    },
+    "shirt": {
+      "type": "boolean",
+      "default": false
+    },
+    "dupatta": {
+      "type": "boolean",
+      "default": false
+    },
+    "trouser": {
+      "type": "boolean",
+      "default": false
+    },
+    "shalwar": {
+      "type": "boolean",
+      "default": false
+    },
+    "pant": {
+      "type": "boolean",
+      "default": false
+    },
+    "dress": {
+      "type": "boolean",
+      "default": false
+    },
+    "embroidered": {
+      "type": "boolean",
+      "default": false
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "men",
+        "women",
+        "boy",
+        "girl"
+      ]
+    },
+    "classification": {
+      "via": "products",
+      "model": "classification"
+    },
+    "stitched": {
+      "type": "boolean",
+      "default": false
+    },
+    "loungeWear": {
+      "type": "boolean",
+      "default": false
+    },
+    "kurta": {
+      "type": "boolean",
+      "default": false
+    },
+    "waistCoat": {
+      "type": "boolean",
+      "default": false
+    },
+    "kameez": {
+      "type": "boolean",
+      "default": false
+    },
+    "short": {
+      "type": "boolean",
+      "default": false
+    },
+    "top": {
+      "type": "boolean",
+      "default": false
+    },
+    "tankTop": {
+      "type": "boolean"
+    },
+    "tights": {
+      "type": "boolean",
+      "default": false
+    },
+    "jumpsuit": {
+      "type": "boolean",
+      "default": false
+    },
+    "skirt": {
+      "type": "boolean"
+    },
+    "productTitle": {
+      "type": "string"
+    },
+    "formal": {
+      "type": "boolean",
+      "default": false
+    },
+    "gown": {
+      "type": "boolean",
+      "default": false
+    },
+    "scarf": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

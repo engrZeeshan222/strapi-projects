@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_price_prices",
+  "info": {
+    "name": "price",
+    "icon": "money-check-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "originalPrice": {
+      "type": "string"
+    },
+    "sale": {
+      "type": "string"
+    },
+    "salePrice": {
+      "type": "string"
+    }
+  }
+}

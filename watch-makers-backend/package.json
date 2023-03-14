@@ -1,0 +1,47 @@
+{
+  "name": "watchmakers",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-graphql": "^4.3.6",
+    "@strapi/plugin-i18n": "4.3.6",
+    "@strapi/plugin-users-permissions": "4.3.6",
+    "@strapi/provider-email-sendgrid": "^4.3.6",
+    "@strapi/provider-upload-cloudinary": "^4.3.6",
+    "@strapi/provider-upload-local": "^4.3.8",
+    "@strapi/strapi": "4.3.6",
+    "Buffer": "^0.0.0",
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "better-sqlite3": "7.4.6",
+    "mime-types": "^2.1.35",
+    "node-fetch": "^3.2.10",
+    "path": "^0.12.7",
+    "pg": "^8.8.0",
+    "plaiceholder": "^2.5.0",
+    "slugify": "^1.6.5",
+    "strapi-plugin-local-image-sharp": "^1.2.0",
+    "stream": "^0.0.2",
+    "util": "^0.12.4",
+    "webp-converter": "^2.3.3",
+    "yarn": "^1.22.19"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "01d7f7b2-d322-4940-9b12-58220234616a"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

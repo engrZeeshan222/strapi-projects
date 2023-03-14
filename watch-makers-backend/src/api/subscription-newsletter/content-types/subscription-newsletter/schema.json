@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subscription_newsletters",
+  "info": {
+    "singularName": "subscription-newsletter",
+    "pluralName": "subscription-newsletters",
+    "displayName": "subscriptionNewsletter",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "email": {
+      "type": "email",
+      "unique": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "brands",
+  "info": {
+    "name": "brands",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "classifications": {
+      "via": "brand",
+      "collection": "classification"
+    },
+    "products": {
+      "via": "brand",
+      "collection": "products"
+    }
+  }
+}

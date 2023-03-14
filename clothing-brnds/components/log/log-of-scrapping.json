@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_log_log_of_scrappings",
+  "info": {
+    "name": "logOfScrapping",
+    "icon": "code-branch",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "dateOfScraping": {
+      "type": "date"
+    },
+    "scraping": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

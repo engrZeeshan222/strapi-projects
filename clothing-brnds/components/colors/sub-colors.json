@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_colors_sub_colors",
+  "info": {
+    "name": "SubColors",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

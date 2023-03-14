@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/fabrics",
+      "handler": "fabric.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fabrics/count",
+      "handler": "fabric.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/fabrics/:id",
+      "handler": "fabric.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/fabrics",
+      "handler": "fabric.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/fabrics/:id",
+      "handler": "fabric.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/fabrics/:id",
+      "handler": "fabric.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
